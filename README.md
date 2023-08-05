@@ -1,2 +1,2 @@
 # matheusguedesprojetorecode
-projeto inical recode
+projeto inicial recode
