@@ -4,7 +4,7 @@ var
    cpf: vetor[0..4] de inteiro
    destino: vetor[0..4] de caractere
    op, nome: caractere
-   i, j, s: inteiro
+   i,qtd, s: inteiro
 
 procedimento inicializa()
 
@@ -102,7 +102,7 @@ procedimento buscar_cliente()
 
 inicio
 
-   j <- 0
+   qtd <- 0
 
    escreval("Encontrar UM CADASTRO...")
    escreval()
@@ -120,12 +120,12 @@ inicio
          escreval("-> Destino: ", destino[i])
          escreval()
 
-         j <- j + 1
+         qtd <- qtd + 1
 
       fimse
    fimpara
 
-   se (j = 0) entao
+   se (qtd = 0) entao
 
       escreval("Cliente não cadastrado!")
       escreval()
